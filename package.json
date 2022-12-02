@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/reykeem/website/issues"
   },
-  "homepage": "http://reykeem.github.io/website",
+  "homepage": "https://reykeem.github.io/website",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
