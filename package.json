@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "./client/index.tsx",
-  "homepage": "https://reykeem.github.io/website",
+  "homepage": "https://reykeem.github.io/website/",
   "scripts": {
     "start": "NODE_ENV=production nodemon server/server.js",
     "build": "NODE_ENV=production webpack",
     "dev": "NODE_ENV=development nodemon server/server.js & webpack-dev-server --mode development --open --hot",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build -b main"
   },
   "repository": {
     "type": "git",
