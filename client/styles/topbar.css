@@ -1,9 +1,0 @@
-.topbar {
-  /* text-align: right; */
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
-  font-size: 1em;
-}
